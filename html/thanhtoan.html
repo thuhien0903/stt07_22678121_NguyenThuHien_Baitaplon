@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <title>Watch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/stylethanhtoan.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar1 navbar-light ">
+                <div class="row">
+                    <div class="col-menu">
+                        <div class="menu-bar">
+                            <span></span>
+                        </div>
+                        <div class="menu-items">
+                            <ul>
+                                <li class="menu-item"><a href="./Home.html">Trang chủ</a></li>
+                                <li class="menu-item"><a href="./gioithieu.html">Giới thiệu</a></li>
+                                <li class="menu-item">
+                                    <a href="./SanPham.html">Sản phẩm</a>
+                                    <i class="icon-menu bi bi-plus"></i>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu-item">
+                                            <a href="./SanPham_Patek Philippe.html">Patek Philippe</a>
+                                            <i class="sub-icon-menu bi bi-plus"></i>
+                                            <ul class="sub-sub-menu">
+                                                <li class="sub-menu-item"><a
+                                                        href="./SanPham_Patek Philippe.html">Philippe</a></li>
+                                                <li class="sub-menu-item"><a
+                                                        href="./SanPham_Patek Philippe.html">Patek</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu-item"><a href="./SanPham_Hublot.html">Hublot</a></li>
+                                        <li class="sub-menu-item"><a href="./SanPham_Rolex.html">Rolex</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item"><a href="./tintuc.html">Tin tức</a></li>
+                                <li class="menu-item"><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="form-inline">
+                            <form action="" class="search-bar">
+                                <input type="text" placeholder="Nhập từ khóa.......">
+                                <button type="submit"><a href="#"><i class="bi bi-search"></i></a></button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="account-bar">
+                        <button type="button"><a href="#"><i class="bi bi-person-fill"></i></a></button>
+                    </div>
+
+                    <div class="cart-bar" data-target="#myCart">
+                        <button type="button">
+                            <a href="#">
+                                <i class="bi bi-cart-fill" data-toggle="modal" data-target="#cart"></i>
+                            </a>
+                            <input type="text" readonly value="0">
+                        </button>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="section-1">
+            <a href="Home.html" class="trangchu">Trang chủ</a>
+            <i>/</i>
+            <a href="#" class="t1">Thanh toán</a>
+        </div>
+        <div class="section-2">
+            <h3 class="tieude">THANH TOÁN</h3>
+            <hr>
+            <div class="thanhtoan">
+                <div class="thanhtoanleft">
+                    <h3>THÔNG TIN KHÁCH HÀNG</h3>
+                    <div class="thanhtoanlefttop">
+                        <h3>NGƯỜI MUA HÀNG</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-container">
+                                    <input type="text" placeholder="Họ và tên" required>
+                                    <span class="required">*</span>
+                                </div><br>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-container">
+                                    <input type="email" placeholder="Email" required>
+            
+                                </div><br>
+                            </div>
+                            <div class="col-6 dienthoai">
+                                <div class="input-container">
+                                    <input type="tel" placeholder="Điện thoại" required>
+                                    <span class="required">*</span>
+                                </div><br>
+                            </div>
+                        </div>
+                        <h3>NGƯỜI NHẬN HÀNG</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-container">
+                                    <input type="text" placeholder="Họ và tên" required>
+                                    <span class="required">*</span>
+                                </div><br>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-container">
+                                    <input type="tel" placeholder="Điện thoại" required>
+                                    <span class="required">*</span>
+                                </div><br>
+                            </div>
+                            <div class="col-6">
+                                <a href="#">Sử dụng thông tin người mua hàng</a>
+                            </div>
+                            <div class="col-6">
+                                <label for="#">Bạn có muốn nhận hàng trực tiếp tại shop?</label>
+                            </div>
+                        </div>
+                        <h3 class="diachi">ĐỊA CHỈ NHẬN HÀNG</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-container">
+                                    <input type="text" placeholder="Địa chỉ" required>
+                                    <span class="required">*</span>
+                                </div><br>
+                            </div>
+                            <div class="col-6">
+                    
+                                <select name="" id="select1" >
+                                    <option value="" disabled selected>Chọn tỉnh/thành</option>
+                                    <option value="1">Hà Nội</option>
+                                    <option value="2">Hồ Chí Minh</option>
+                                    <option value="3">Đà Nẵng</option>
+                                    <option value="4">Hải Phòng</option>
+                                    <option value="5">Cần Thơ</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <select name="" id="select2">
+                                    <option value="" disabled selected>Chọn Quận/Huyện</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <select name="" id="select3">
+                                    <option value="" disabled selected>Chọn Phường Xã</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thanhtoanleftbottom">
+                        <h3>HÌNH THỨC THANH TOÁN</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="radio" name="thanhtoan">
+                                <p>Thanh toán khi nhận hàng</p>
+                            </div>
+                            <div class="col-6">
+                                <p>Thanh toán trực tuyến</p>
+                                <div tabindex="1" style="overflow:hidden">
+                                    <div>
+                                        <input type="radio" name="thanhtoan">
+                                        <img src="https://demo037179.web30s.vn/assets/images/payment/2022/thanh-toan-chuyen-kh.png" alt="">
+                                        <span>Thanh toán chuyển khoản</span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="thanhtoan">
+                                        <img src="https://demo037179.web30s.vn/assets/images/payment/2022/paypal-payment.png" alt="">
+                                        <span>Thanh toán PayPal</span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="thanhtoan">
+                                        <img src="https://demo037179.web30s.vn/assets/images/payment/2022/vnpay_qr.png" alt="">
+                                        <span>Thanh toán VNPAY</span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="thanhtoan">
+                                        <img src="https://demo037179.web30s.vn/assets/images/payment/2022/ZaloPay_Logo.png" alt="">
+                                        <span>Thanh toán ZaloPay</span>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="thanhtoan">
+                                        <img src="https://demo037179.web30s.vn/assets/images/payment/2022/momo-payment.png" alt="">
+                                        <span>Thanh toán qua ví MoMo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thanhtoanright">
+                    <h3>THÔNG TIN ĐƠN HÀNG</h3>
+                    <div class="tt">
+                        <div class="r2">
+                            <p>Tạm tính</p>
+                            <p>Thành tiền</p>
+                        </div>
+                        <div class="r3">
+                            <input type="text" placeholder="Ghi chú">
+                        </div>
+                        <div class="r4">
+                            <button>Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer row">
+            <hr>
+            <div class="footer-items">
+                <div class="footer-item">
+                    <h2>VỀ CHÚNG TÔI</h2>
+                    <p>Nguyễn Thu Hiền - 22678121 </p>
+                
+                </div>
+                <div class="footer-item">
+                    <h2>DANH MỤC SẢN PHẨM</h2>
+                    <a href="../HTML/SanPham_Patek Philippe.html">Patek Philippe</a>
+                    <a href="../HTML/SanPham_Hublot.html">Hublot</a>
+                    <a href="../HTML/SanPham_Rolex.html">Rolex</a>
+                </div>
+                <div class="footer-item">
+                    <h2>THỐNG KÊ</h2>
+                    <p>Tổng lượt truy cập: <span>1.902</span></p>
+                    <p>Tháng qua: <span>930</span></p>
+                    <p>Tuần qua: <span>303</span></p>
+                    <p>Hôm nay: <span>120</span></p>
+                    <p>Đang online: <span>456</span></p>
+                </div>
+                <div class="footer-item">
+                    <h2>FANPAGE</h2>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="myCart">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <table class="table table-bordered"></table>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"><a href="./thanhtoan.html">Thanh toán</a></button>
+                        <button type="button" class="btn btn-secondary"><a href="./giohang.html">Giỏ hàng</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="account">
+            <div class="login">
+                <a href="./dangnhap.html">Đăng nhập</a>
+            </div>
+            <div class="register">
+                <a href="./dangky.html">Đăng ký</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
